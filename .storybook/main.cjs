@@ -18,7 +18,7 @@ module.exports = {
   },
   "viteFinal": (config, { configType }) => {
     if (configType === 'PRODUCTION') {
-      config.base = '/Ignite-Lab-Design-System.github.io/' // aqui o nome do repositório
+      config.base = 'https://paulohdeassis.github.io/Ignite-Lab-Design-System/' // aqui o nome do repositório
     }
 
     return config;
